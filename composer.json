@@ -1,0 +1,25 @@
+{
+	"name": "jnilla/php-dom-decorator",
+	"type": "library",
+	"description": "PHP DOM objects decorators to add convenient functionalities and behavior such selecting nodes using CSS selectors",
+	"keywords": ["php","dom","decorator", "css"],
+	"homepage": "https://github.com/jnilla/php-dom-decorator",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Edric Navarro",
+			"email": "digitalcomputer2142@gmail.com",
+			"homepage": "https://github.com/jnilla",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"symfony/css-selector": "*"
+	},	
+	"autoload": {
+		"psr-4": {
+			"Jnilla\\PhpDomDecorator\\": "src/"
+		}
+	}
+}
+
