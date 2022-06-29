@@ -1,5 +1,5 @@
 <?php
-namespace Jnilla\PhpDomDecorator;
+namespace Jnilla\PhpDomHelper;
 
 use DOMDocument;
 use Symfony\Component\CssSelector\CssSelectorConverter;
@@ -8,7 +8,7 @@ use DOMXPath;
 /**
  * DOMDocument decorator class
  */
-class DOMDocumentDecorator extends DOMDocument{
+class DomHelper{
     
     private $xpath = null;
     private $cssToXpathConverter = null;

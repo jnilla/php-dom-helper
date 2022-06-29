@@ -1,9 +1,9 @@
 {
-	"name": "jnilla/php-dom-decorator",
+	"name": "jnilla/php-dom-helper",
 	"type": "library",
-	"description": "PHP DOM objects decorators to add convenient functionalities and behavior such selecting nodes using CSS selectors",
-	"keywords": ["php","dom","decorator", "css"],
-	"homepage": "https://github.com/jnilla/php-dom-decorator",
+	"description": "PHP DOM Helper with convenient functionalities such as CSS selectors, node class manipulation and more.",
+	"keywords": ["php","dom","helper", "css", "selectors"],
+	"homepage": "https://github.com/jnilla/php-dom-helper",
 	"license": "MIT",
 	"authors": [
 		{
@@ -18,7 +18,7 @@
 	},	
 	"autoload": {
 		"psr-4": {
-			"Jnilla\\PhpDomDecorator\\": "src/"
+			"Jnilla\\PhpDomHelper\\": "src/"
 		}
 	}
 }
